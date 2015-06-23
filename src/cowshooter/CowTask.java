@@ -17,8 +17,6 @@ public class CowTask extends BukkitRunnable {
     private World world;
     private Cow cow;
     public CowTask(World myWorld, Cow myCow) {
-        world = myWorld;
-        cow = myCow;
     }
     public void run() {
       if (cow.isOnGround()) {
