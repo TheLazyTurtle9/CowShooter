@@ -17,6 +17,8 @@ public class CowTask extends BukkitRunnable {
     private World world;
     private Cow cow;
     public CowTask(World myWorld, Cow myCow) {
+        world = myWorld;
+        cow = myCow;
     }
     public void run() {
       if (cow.isOnGround()) {
@@ -25,7 +27,6 @@ public class CowTask extends BukkitRunnable {
       } else {
         cow.setFireTicks(20);
         cow.setHealth(cow.getMaxHealth());
-        AHHH!!!! The Zombies Are Back!!!!!
       }
     }
 }
