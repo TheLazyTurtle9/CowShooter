@@ -27,6 +27,7 @@ public class CowTask extends BukkitRunnable {
       } else {
         cow.setFireTicks(20);
         cow.setHealth(cow.getMaxHealth());
+        AHHH!!!! The Zombies Are Back!!!!!
       }
     }
 }
